@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,500;1,600;1,700&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,800&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,500;0,900;1,100;1,300;1,500;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #0a0c1b;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+/* start  insights */
+
+
+
+.insights .insights_main {
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+  overflow: hidden;
+  border: none;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.insights .insights_main .insights_box {
+  width: calc(88% / 2);
+
+
+  background-color: #1c1938;
+}
+
+.insights .insights_main .first {
+  padding-right: 40px;
+  padding-left: 70px;
+
+}
+
+.insights_main .insights_box h1 {
+  font-size: 35px;
+  color: #fff;
+  margin-top: 55px;
+  margin-bottom: 25px;
+  max-width: 95%;
+}
+
+.insights_main .insights_box .diffrent {
+  color: #a75fde;
+}
+
+.insights_main .insights_box p {
+  color: #a4a2ba;
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 700;
+  margin-bottom: 25px;
+  max-width: 85%;
+}
+
+.insights_box .box_insights_small {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.insights_box .box_insights_small>div {
+  padding-top: 30px;
+  width: calc(90% / 3);
+}
+
+.insights_box .box_insights_small .small_1 span {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.insights_box .box_insights_small .small_1 span i {
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.insights_box .box_insights_small .small_1 p {
+  font-size: 11px;
+}
+
+/*   */
+
+.insights .secend {
+  position: relative;
+}
+
+.insights .secend::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  background-color: hsl(277, 100%, 29%);
+  inset: 0;
+}

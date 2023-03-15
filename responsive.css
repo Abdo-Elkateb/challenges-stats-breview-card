@@ -1,0 +1,163 @@
+/* start responsive */
+
+/* max width 1200px  */
+
+@media screen and (max-width: 1200px) {
+  .insights_main .insights_box h1 {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 55px;
+    margin-bottom: 25px;
+    max-width: 90%;
+  }
+}
+
+/* mac width 992px */
+
+@media screen and (max-width: 992px) {
+  .insights .insights_main .first {
+    padding: 0px 1px 0px 40px;
+  }
+
+  .insights_main .insights_box h1 {
+    font-size: 24px;
+    max-width: 90%;
+  }
+
+  .insights_main .insights_box p {
+    color: #a4a2ba;
+    font-size: 13px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    max-width: 90%;
+  }
+}
+
+/*  max width 768px */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 96%;
+    margin: 0 auto;
+  }
+
+  .insights .insights_main {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+  .insights .insights_main .insights_box {
+    width: 50%;
+  }
+
+  .insights .insights_main .first {
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+
+  .insights_main .insights_box h1 {
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+
+  .insights_main .insights_box p {
+    color: #a4a2ba;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    max-width: 100%;
+  }
+
+  .insights_box .box_insights_small {
+    display: flex;
+    text-align: center;
+    flex-flow: column;
+  }
+
+  .insights_box .box_insights_small>div {
+    padding-top: 10px;
+    width: 100%;
+  }
+}
+
+/*  max width 600px */
+
+
+
+@media screen and (max-width: 600px) {
+
+  .insights .insights_main {
+    display: flex;
+    justify-content: center;
+    flex-flow: column-reverse wrap;
+  }
+
+  .insights .insights_main .insights_box {
+    width: 100%;
+  }
+
+  .insights .insights_main .first {
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+
+  .insights_main .insights_box h1 {
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+
+  .insights_main .insights_box p {
+    color: #a4a2ba;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    max-width: 100%;
+  }
+
+  .insights_box .box_insights_small {
+    display: flex;
+    text-align: center;
+    flex-flow: column;
+  }
+
+  .insights_box .box_insights_small > div {
+    padding-top: 10px;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1200
+1024
+900 this screen  dor desktop
+768 this screen  dor ipad
+600 this sreen for Iphone
+480
+320
+*/
